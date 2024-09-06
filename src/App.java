@@ -1,6 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
+        // variables
         String creator = "Dima";
         Integer number1 = 10;
         Integer number2 = 3;
@@ -9,7 +10,7 @@ public class App {
         double division = number1 / number2;
         Integer substraction = number1 - number2;
 
-        
+        // print tasks
         System.out.println("Printer app");
         System.out.print("This app is made by: ");
         System.out.println(creator);
